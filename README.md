@@ -35,7 +35,7 @@ Este proxecto consiste nun formulario de contacto sinxelo realizado con HTML, CS
 4. **Verificacións co Playwright**:
     - O proxecto emprega **Playwright** para realizar probas automatizadas e verificar que o comportamento do formulario sexa o esperado.
     - Para realizar as probas co Playwright, debes instalar as dependencias necesarias e executar os scripts de probas automatizadas no ambiente local.
-    - Pode usar o comando **npx playwright test --headed** para comprobar o funcionamento do formulario.
+    - Pode usar o comando `npx playwright test --headed` para comprobar o funcionamento do formulario, después de haber instalado `npm install -D playwright`.
 
 5. **Validacións do formulario**:
     - O formulario conta con validacións en JavaScript para garantir que os campos de nome, correo electrónico e mensaxe se completen correctamente.
