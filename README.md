@@ -28,7 +28,7 @@ Este proxecto consiste nun formulario de contacto sinxelo realizado con HTML, CS
     - **Nota**: O código PHP **non funcionará en GitHub Pages**, xa que GitHub non soporta código do lado do servidor.
 
 3. **Executar o proxecto**:
-    - Coloca todos os ficheiros do proxecto na carpeta `htdocs` (en XAMPP) ou na carpeta correspondente de WAMP.
+    - Coloca todos os ficheiros do proxecto na carpeta `htdocs` (en XAMPP) ou na carpeta correspondente de WAMP,[Clonar GitHub de Adriana](https://github.com/MichienWeb/adriana.git).
     - Asegúrate de que o servidor Apache está executándose.
     - Accede ao proxecto desde `http://localhost/` no teu navegador.
 
