@@ -1,0 +1,21 @@
+{
+  "name": "adriana",
+  "version": "1.0.0",
+  "description": "Este proxecto consiste nun formulario de contacto sinxelo realizado con HTML, CSS, JavaScript, PHP e tamén conta con **verificación automática** empregando **Playwright**. Está deseñado para que os usuarios poidan enviar consultas ou comentarios a través dun formulario na web, e segue o patrón de deseño **Modelo-Vista-Controlador (MVC)** para organizar mellor o código e mellorar a manexabilidade do proxecto.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichienWeb/adriana.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MichienWeb/adriana/issues"
+  },
+  "homepage": "https://github.com/MichienWeb/adriana#readme"
+}
