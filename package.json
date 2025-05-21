@@ -17,5 +17,6 @@
   "bugs": {
     "url": "https://github.com/MichienWeb/adriana/issues"
   },
-  "homepage": "https://github.com/MichienWeb/adriana#readme"
+  "homepage": "https://github.com/MichienWeb/adriana#readme",
+  "devDependencies": {}
 }
