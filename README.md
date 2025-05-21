@@ -8,7 +8,7 @@ Este proxecto consiste nun formulario de contacto sinxelo realizado con HTML, CS
 - **CSS**: Estilo visual da páxina e do formulario.
 - **Bootstrap**: Framework CSS utilizado para mellorar a apariencia e a usabilidade da páxina.
 - **JavaScript**: Validación do formulario para garantir que os campos son completos e correctos antes de enviarlos.
-- **PHP**: Usado para xestionar e enviar os datos do formulario (nota: non funciona directamente en GitHub Pages, PHP no es válido).
+- **PHP**: Usado para xestionar e enviar os datos do formulario (nota: non funciona directamente en GitHub Pages, PHP non es válido).
 - **Playwright**: Usado para realizar verificacións automáticas do comportamento do formulario e garantir que a validación e o funcionamento sexan correctos.
 - **Modelo-Vista-Controlador (MVC)**: Estratexia de organización do código que separa a lógica de presentación (Vista), a manipulación de datos (Modelo) e o control de fluxo (Controlador), mellorando a manutenibilidade e escalabilidade do proxecto.
 
@@ -28,14 +28,14 @@ Este proxecto consiste nun formulario de contacto sinxelo realizado con HTML, CS
     - **Nota**: O código PHP **non funcionará en GitHub Pages**, xa que GitHub non soporta código do lado do servidor.
 
 3. **Executar o proxecto**:
-    - Coloca todos os ficheiros do proxecto na carpeta `htdocs` (en XAMPP) ou na carpeta correspondente de WAMP.
+    - Coloca todos os ficheiros do proxecto na carpeta `htdocs` (en XAMPP) ou na carpeta correspondente de WAMP,[Clonar GitHub de Adriana](https://github.com/MichienWeb/adriana.git).
     - Asegúrate de que o servidor Apache está executándose.
     - Accede ao proxecto desde `http://localhost/` no teu navegador.
 
 4. **Verificacións co Playwright**:
     - O proxecto emprega **Playwright** para realizar probas automatizadas e verificar que o comportamento do formulario sexa o esperado.
     - Para realizar as probas co Playwright, debes instalar as dependencias necesarias e executar os scripts de probas automatizadas no ambiente local.
-    - Pode usar o comando `npx playwright test --headed` para comprobar o funcionamento do formulario, después de haber instalado `npm install -D playwright`.
+    - Pode usar o comando `npx playwright test --headed` para comprobar o funcionamento do formulario, después de haber instalado `npm install -D playwright` e `npm install -D @playwright/test`.
 
 5. **Validacións do formulario**:
     - O formulario conta con validacións en JavaScript para garantir que os campos de nome, correo electrónico e mensaxe se completen correctamente.
