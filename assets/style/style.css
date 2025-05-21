@@ -1,0 +1,39 @@
+ body {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        .form-control,
+        .form-control:focus {
+            background-color: #1e1e1e;
+            color: #fff;
+            border: 1px solid #444;
+        }
+
+        .form-text,
+        .invalid-feedback {
+            color: #bbb;
+        }
+
+        .form-control::placeholder {
+            color: #777;
+        }
+
+        .navbar {
+            background-color: #1f1f1f;
+        }
+
+        .navbar-brand img {
+            height: 45px;
+            width: 45px;
+            filter: invert();
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+        .alert {
+            padding: 10px;
+            margin-top: 10px;
+        }
