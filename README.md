@@ -8,7 +8,7 @@ Este proxecto consiste nun formulario de contacto sinxelo realizado con HTML, CS
 - **CSS**: Estilo visual da páxina e do formulario.
 - **Bootstrap**: Framework CSS utilizado para mellorar a apariencia e a usabilidade da páxina.
 - **JavaScript**: Validación do formulario para garantir que os campos son completos e correctos antes de enviarlos.
-- **PHP**: Usado para xestionar e enviar os datos do formulario (nota: non funciona directamente en GitHub Pages).
+- **PHP**: Usado para xestionar e enviar os datos do formulario (nota: non funciona directamente en GitHub Pages, PHP no es válido).
 - **Playwright**: Usado para realizar verificacións automáticas do comportamento do formulario e garantir que a validación e o funcionamento sexan correctos.
 - **Modelo-Vista-Controlador (MVC)**: Estratexia de organización do código que separa a lógica de presentación (Vista), a manipulación de datos (Modelo) e o control de fluxo (Controlador), mellorando a manutenibilidade e escalabilidade do proxecto.
 
