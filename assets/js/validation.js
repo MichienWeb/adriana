@@ -34,5 +34,14 @@ document.getElementById("contactForm").addEventListener("submit", async function
         // Catch network errors or other exceptions
         document.getElementById("responseMessage").innerHTML = "<div class='alert alert-danger'>Ocorreu un erro ao enviar o formulario.</div>";
     }
+    await page.fill('#nome', 'A'); // Too short
+    await page.fill('#email', 'bad@email'); // Invalid
+    await page.fill('#mensaxe', 'Hi'); // Too short
+
+    await page.click('button[type="submit"]');
+
+    // Wait for PHP-generated error
+    await expect(page.locator('.alert-danger')).toBeVisible();
+
 });
 

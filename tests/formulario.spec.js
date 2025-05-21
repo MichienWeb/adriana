@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 test('Envío válido do formulario', async ({ page }) => {
-  await page.goto('http://localhost/probas-despregue/index.php');
+  await page.goto('http://localhost/adriana/index.php');
 
   await page.fill('input[name="nome"]', 'Ana');
   await page.fill('input[name="email"]', 'ana@example.com');
@@ -12,19 +12,17 @@ test('Envío válido do formulario', async ({ page }) => {
   await expect(page.locator('#confirmacion')).toContainText('Mensaxe enviada correctamente');
 });
 
+
 test('Envío baleiro do formulario', async ({ page }) => {
-  await page.goto('http://localhost/probas-despregue/index.php');
+  // Abrir a páxina
+  await page.goto('http://localhost/adriana/index.php');
 
-  // Forzar a eliminación de validación no cliente
-  await page.evaluate(() => {
-    const form = document.querySelector('form');
-    form.removeAttribute('novalidate');
-    form.noValidate = true;
-  });
+  // Premer o botón de envío sen encher o formulario
+  await page.click('button[type="submit"]');
 
-  // Forzar envío aínda que os campos estean baleiros
-  await page.$eval('form', form => form.submit());
-
-  // Agardar polos erros xerados polo servidor
-  await expect(page.locator('.erro')).toBeVisible();
+  // Verificar que aparecen as mensaxes de erro de Bootstrap
+  await expect(page.locator('#nome ~ .invalid-feedback')).toBeVisible();
+  await expect(page.locator('#email ~ .invalid-feedback')).toBeVisible();
+  await expect(page.locator('#mensaxe ~ .invalid-feedback')).toBeVisible();
 });
+
